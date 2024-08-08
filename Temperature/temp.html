@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="converter">
+            <h1>Temperature Converter</h1>
+            <form id="tempForm">
+                <div class="input-group">
+                    <label for="degrees">Degrees</label>
+                    <input type="number" id="degrees" name="degrees" value="72">
+                </div>
+                <div class="input-group">
+                    <label for="type">Type</label>
+                    <select id="type" name="type">
+                        <option value="Fahrenheit">Fahrenheit</option>
+                        <option value="Celsius">Celsius</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="result">Result</label>
+                    <input type="text" id="result" name="result" readonly value="22.2222 °C">
+                </div>
+                <button type="button" onclick="convert()">Convert</button>
+            </form>
+        </div>
+    </div>
+    <script src="temp.js"></script>
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(7, 7, 51);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: pink;
+            font-size: 1.02rem;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #8c87f2;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            font-size: 2rem;
+        }.leftsection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 10px;
+            color: white;
+            background-color: #122167;
+            border: 2px solid white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: aqua;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: aqua;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -20px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            top: 75px;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        footer {
+            background-color: #044;
+        }
+
+        .footer {
+            display: flex;
+            padding: 20px 100px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 120px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Web-Developer Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name is <span class="purple">Sai Pravalika</span>
+                <div>and I'm a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="img.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html-logo.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                        <div>(2025)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        Hypet Text Markup Language
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="css-logo.png" alt="">
+                    <div class="vertical-title">
+                        CSS Developer
+                    </div>
+                    <div>(2025)</div>
+                    <div class="vertical-desc">
+                        Cascading Style Sheet
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="js-logo.jpeg" alt="">
+                    <div class="vertical-title">
+                        JS Developer
+                    </div>
+                    <div>(2025)</div>
+                    <div class="vertical-desc">
+                        Java Script
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="node-logo.png" alt="">
+                    <div class="vertical-title">
+                        Node Js Developer
+                    </div>
+                    <div>(2025)</div>
+
+                    <div class="vertical-desc">
+                        Node Js
+                    </div>
+
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3> Web Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <br> <br>
+                <h4>Languages</h4>
+                <ul>
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Telugu</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &copy;saipravalika.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
